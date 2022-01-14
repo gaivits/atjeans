@@ -86,6 +86,6 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 
 </div>
-	<h1><a href="<?php echo base_url('index.php/Home') ?>">ไปยังโจทย์</a></h1>
+	<h1><a href="<?php echo base_url('index.php/Home/index') ?>">ไปยังโจทย์</a></h1>
 </body>
 </html>

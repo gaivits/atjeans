@@ -6,21 +6,21 @@
    
 <body> 
 
-<form method="post" action="Home/creates">
-	<input type="number" name="customerNumber" placeholder="customerNumber">
-	<input type="text" name="customerName" placeholder="customerName">
-	<input type="text" name="contactLastName" placeholder="contactLastName">
-	<input type="text" name="contactFirstName" placeholder="contactFirstName">
-	<input type="text" name="phone" placeholder="phone">
-	<input type="text" name="addressLine1" placeholder="addressLine1">
-	<input type="text" name="addressLine2" placeholder="addressLine2"> 
-	<input type="text" name="city" placeholder="city">
-	<input type="text" name="state" placeholder="state">
-	<input type="text" name="postalCode" placeholder="postalCode">
-	<input type="text" name="country" placeholder="country">
-	<input type="text" name="salesRepEmployeeNumber" placeholder="salesRepEmployeeNumber">
-	<input type="number" step=0.01 name="creditLimit" placeholder="creditLimit">
-	<input type="submit" value="เพิ่ม">
+<form method="post" action="creates">
+   <input type="number" name="customerNumber" placeholder="customerNumber">
+   <input type="text" name="customerName" placeholder="customerName">
+   <input type="text" name="contactLastName" placeholder="contactLastName">
+   <input type="text" name="contactFirstName" placeholder="contactFirstName">
+   <input type="text" name="phone" placeholder="phone">
+   <input type="text" name="addressLine1" placeholder="addressLine1">
+   <input type="text" name="addressLine2" placeholder="addressLine2"> 
+   <input type="text" name="city" placeholder="city">
+   <input type="text" name="state" placeholder="state">
+   <input type="text" name="postalCode" placeholder="postalCode">
+   <input type="text" name="country" placeholder="country">
+   <input type="text" name="salesRepEmployeeNumber" placeholder="salesRepEmployeeNumber">
+   <input type="number" step=0.01 name="creditLimit" placeholder="creditLimit">
+   <input type="submit" value='save'>
 </form>
 
 <a href="<?php echo base_url() . "index.php/Home/show_tokyos"; ?>">TOKYO</a> /

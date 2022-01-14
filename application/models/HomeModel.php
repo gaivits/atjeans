@@ -23,14 +23,13 @@
 		 public function edits($id)
     	{
         	$query = $this->db->get_where('customers', ['customerNumber'=>$id]);
-        	
         	return $query;
-
-    	}
+        	
+       	}
      	public function updates($id,$data)
      	{
-     		$this->db->where('customers',['customerNumber'=>$id]);
-     		$this->db->update('customers',$data);
+     		$query = $this->db->where('customerNumber',$id)->update('customers',$data);
+     		return $query;
      	}
 	
 	}
