@@ -6,7 +6,7 @@
    
 <body> 
 
-<form method="post" action="creates">
+<form method="post" action="Home/creates">
    <input type="number" name="customerNumber" placeholder="customerNumber">
    <input type="text" name="customerName" placeholder="customerName">
    <input type="text" name="contactLastName" placeholder="contactLastName">

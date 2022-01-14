@@ -1,8 +1,4 @@
-<?php
-   echo "<pre>";
-   echo print_r($cuss->result());
-   echo "</pre>";
-?>
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -14,7 +10,7 @@
       <h3>Edit Data</h3>
     
    </center>
-
+   <a href="<?php echo base_url('index.php/Home') ?>">HOME</a>
    <?php foreach($cuss->result() as $row){ ?>
    <form method="post" action="<?php echo base_url() . "index.php/Home/updates/" . $row->customerNumber; ?>">
    

@@ -65,11 +65,11 @@
           $data['cuss'] = $this->HomeModel->edits($id);
           $this->load->view('Edits',$data);
       }
-      public function updates()
+      public function updates($id)
       {
           $this->load->database();  
           $this->load->model('HomeModel');
-          $id = $_GET['customerNumber'];
+          ;
           $data = [
             'customerNumber' => $this->input->post('customerNumber'),
             'customerName' => $this->input->post('customerName'),
